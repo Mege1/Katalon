@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="11" tests="0" failures="0" errors="1">
+   <testsuite name="TestSuite" tests="0" failures="0" errors="1" time="11" timestamp="2018-06-26 13:01:19" hostname="tllabra - RI-A105-P05.mshome.net" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tllabra\\Katalon Studio\\wanderingtest1\\Reports\\TestSuite\\20180626_130118"/>
+         <property name="logFiles" value="C:\\Users\\tllabra\\Katalon Studio\\wanderingtest1\\Reports\\TestSuite\\20180626_130118\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\tllabra\\Desktop\\kuva2.jpg"/>
+         <property name="hostName" value="tllabra - RI-A105-P05.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Firefox 59.0"/>
+         <property name="hostAddress" value="172.31.36.225"/>
+         <property name="sessionId" value="dcb1fc33-4629-4142-ad15-94e36a885e90"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offices" classname="Test Cases/Offices" status="ERROR">
+         <error type="ERROR" message="Test Cases/Offices FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+"/>
+         <system-out><![CDATA[2018-06-26 13:01:19 - [TEST_CASE][ERROR] - Test Cases/Offices: Test Cases/Offices FAILED because (of) java.lang.Error: Unresolved compilation problem: 
+
+
+2018-06-26 13:01:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-26 13:01:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-26 13:01:23 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-26 13:01:27 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-26 13:01:27 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://develop-wanderingtailweb.azurewebsites.net/' successfully
+
+2018-06-26 13:01:28 - [MESSAGE][PASSED] - Navigate to 'https://develop-wanderingtailweb.azurewebsites.net/' successfully
+
+2018-06-26 13:01:28 - [TEST_STEP][PASSED] - setText: Text 'eemeli1400@student.hamk.fi' is set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Email'
+
+2018-06-26 13:01:28 - [MESSAGE][PASSED] - Text 'eemeli1400@student.hamk.fi' is set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Email'
+
+2018-06-26 13:01:28 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Password'
+
+2018-06-26 13:01:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Password'
+
+2018-06-26 13:01:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-26 13:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-26 13:01:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Homepage - Wandering Tail Oy (6)/a_Offices' is clicked on
+
+2018-06-26 13:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homepage - Wandering Tail Oy (6)/a_Offices' is clicked on
+
+2018-06-26 13:01:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (5)/a_Change image' is clicked on
+
+2018-06-26 13:01:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (5)/a_Change image' is clicked on
+
+2018-06-26 13:01:30 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-26 13:01:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\tllabra\\Desktop\\kuva2.jpg]]
+
+2018-06-26 13:01:30 - [TEST_STEP][ERROR] - com.katalon.WebUICustomKeyword.uploadFile: Unresolved compilation problem: 
+
+
+2018-06-26 13:01:30 - [MESSAGE][ERROR] - Unresolved compilation problem:]]></system-out>
+         <system-err><![CDATA[2018-06-26 13:01:19 - [TEST_CASE][ERROR] - Test Cases/Offices: Test Cases/Offices FAILED because (of) java.lang.Error: Unresolved compilation problem:]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-26 13:01:19 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/Offices FAILED because (of) java.lang.Error: Unresolved compilation problem:]]></system-out>
+      <system-err><![CDATA[2018-06-26 13:01:19 - [TEST_SUITE][ERROR] - TestSuite: Test Cases/Offices FAILED because (of) java.lang.Error: Unresolved compilation problem:]]></system-err>
+   </testsuite>
+</testsuites>

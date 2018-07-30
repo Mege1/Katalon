@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite,Firefox 59.0,,2018-07-17 09:17:17,2018-07-17 09:17:24,"7,200s",ERROR
+,,,,,,
+Test Cases/Offices,Firefox 59.0,,2018-07-17 09:17:17,2018-07-17 09:17:24,"6,766s",ERROR
+openBrowser,Firefox 59.0,,2018-07-17 09:17:17,2018-07-17 09:17:20,"3,463s",PASSED
+maximizeWindow,Firefox 59.0,,2018-07-17 09:17:20,2018-07-17 09:17:21,"0,040s",PASSED
+navigateToUrl,Firefox 59.0,,2018-07-17 09:17:21,2018-07-17 09:17:21,"0,813s",PASSED
+setText,Firefox 59.0,,2018-07-17 09:17:21,2018-07-17 09:17:21,"0,131s",PASSED
+setEncryptedText,Firefox 59.0,,2018-07-17 09:17:21,2018-07-17 09:17:22,"0,220s",PASSED
+click,Firefox 59.0,,2018-07-17 09:17:22,2018-07-17 09:17:22,"0,789s",PASSED
+click,Firefox 59.0,,2018-07-17 09:17:22,2018-07-17 09:17:23,"0,646s",PASSED
+click,Firefox 59.0,,2018-07-17 09:17:23,2018-07-17 09:17:23,"0,281s",PASSED
+takeScreenshot,Firefox 59.0,,2018-07-17 09:17:23,2018-07-17 09:17:24,"0,104s",PASSED
+com.katalon.WebUICustomKeyword.uploadFile,Firefox 59.0,,2018-07-17 09:17:24,2018-07-17 09:17:24,"0,008s",ERROR

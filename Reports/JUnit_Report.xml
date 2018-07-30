@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite" time="19" tests="1" failures="0" errors="0">
+   <testsuite name="TestSuite" tests="1" failures="0" errors="0" time="19" timestamp="2018-06-27 11:22:43" hostname="tllabra - RI-A105-P05.mshome.net" id="Test Suites/TestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tllabra\\Katalon Studio\\wanderingtest1\\Reports\\TestSuite\\20180627_112241"/>
+         <property name="logFiles" value="C:\\Users\\tllabra\\Katalon Studio\\wanderingtest1\\Reports\\TestSuite\\20180627_112241\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\tllabra\\Desktop\\kuva2.jpg"/>
+         <property name="hostName" value="tllabra - RI-A105-P05.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.87"/>
+         <property name="hostAddress" value="172.18.81.177"/>
+         <property name="sessionId" value="746585488f238b6b2bf360dc10b9529a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Offices" classname="Test Cases/Offices" status="PASSED">
+         <system-out><![CDATA[2018-06-27 11:22:44 - [TEST_CASE][PASSED] - Test Cases/Offices: Test Cases/Offices
+
+2018-06-27 11:22:44 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-06-27 11:22:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-06-27 11:22:47 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-06-27 11:22:48 - [MESSAGE][PASSED] - Current window maximized
+
+2018-06-27 11:22:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://develop-wanderingtailweb.azurewebsites.net/' successfully
+
+2018-06-27 11:22:49 - [MESSAGE][PASSED] - Navigate to 'https://develop-wanderingtailweb.azurewebsites.net/' successfully
+
+2018-06-27 11:22:49 - [TEST_STEP][PASSED] - setText: Text 'eemeli1400@student.hamk.fi' is set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Email'
+
+2018-06-27 11:22:49 - [MESSAGE][PASSED] - Text 'eemeli1400@student.hamk.fi' is set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Email'
+
+2018-06-27 11:22:49 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Password'
+
+2018-06-27 11:22:49 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_Password'
+
+2018-06-27 11:22:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-27 11:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Log in - Wandering Tail Oy (2)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-27 11:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Homepage - Wandering Tail Oy (6)/a_Offices' is clicked on
+
+2018-06-27 11:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Homepage - Wandering Tail Oy (6)/a_Offices' is clicked on
+
+2018-06-27 11:22:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (5)/a_Change image' is clicked on
+
+2018-06-27 11:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (5)/a_Change image' is clicked on
+
+2018-06-27 11:22:51 - [TEST_STEP][PASSED] - takeScreenshot: Taking screenshot successfully
+
+2018-06-27 11:22:51 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\tllabra\\Desktop\\kuva2.jpg]]
+
+2018-06-27 11:22:51 - [TEST_STEP][PASSED] - com.katalon.WebUICustomKeyword.uploadFile: com.katalon.WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-27 11:22:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change image - Wandering Tail (1)/label_Upload image' is clicked on
+
+2018-06-27 11:22:53 - [MESSAGE][PASSED] - com.katalon.WebUICustomKeyword.uploadFile is PASSED
+
+2018-06-27 11:22:53 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-06-27 11:22:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-06-27 11:22:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change image - Wandering Tail (4)/button_Save image' is clicked on
+
+2018-06-27 11:22:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change image - Wandering Tail (4)/button_Save image' is clicked on
+
+2018-06-27 11:22:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (6)/a_Change map marker' is clicked on
+
+2018-06-27 11:22:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (6)/a_Change map marker' is clicked on
+
+2018-06-27 11:22:56 - [TEST_STEP][PASSED] - selectOptionByValue: All options with value '11' are selected in object 'Object Repository/Page_Change map marker - Wandering (1)/select_Please select...Dog foo'  using regular expression
+
+2018-06-27 11:22:57 - [MESSAGE][PASSED] - All options with value '11' are selected in object 'Object Repository/Page_Change map marker - Wandering (1)/select_Please select...Dog foo'  using regular expression
+
+2018-06-27 11:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change map marker - Wandering (1)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-27 11:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change map marker - Wandering (1)/input_btn btn-primary col-xs-1' is clicked on
+
+2018-06-27 11:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Show current image' is clicked on
+
+2018-06-27 11:22:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Show current image' is clicked on
+
+2018-06-27 11:22:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Change coordinates' is clicked on
+
+2018-06-27 11:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Change coordinates' is clicked on
+
+2018-06-27 11:22:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change coordinates - Wandering (2)/div_-Leaflet   OpenStreetMap' is clicked on
+
+2018-06-27 11:22:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change coordinates - Wandering (2)/div_-Leaflet   OpenStreetMap' is clicked on
+
+2018-06-27 11:22:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change coordinates - Wandering (2)/input_btn btn-primary' is clicked on
+
+2018-06-27 11:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change coordinates - Wandering (2)/input_btn btn-primary' is clicked on
+
+2018-06-27 11:22:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Change name' is clicked on
+
+2018-06-27 11:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (7)/a_Change name' is clicked on
+
+2018-06-27 11:22:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change office name - Wandering/div_Office name' is clicked on
+
+2018-06-27 11:22:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change office name - Wandering/div_Office name' is clicked on
+
+2018-06-27 11:22:59 - [TEST_STEP][PASSED] - setText: Text 'hei' is set on object 'Object Repository/Page_Change office name - Wandering/input_Name'
+
+2018-06-27 11:22:59 - [MESSAGE][PASSED] - Text 'hei' is set on object 'Object Repository/Page_Change office name - Wandering/input_Name'
+
+2018-06-27 11:22:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change office name - Wandering/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change office name - Wandering/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change description' is clicked on
+
+2018-06-27 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change description' is clicked on
+
+2018-06-27 11:23:00 - [TEST_STEP][PASSED] - setText: Text 'koira' is set on object 'Object Repository/Page_Change description - Wandering/textarea_Description'
+
+2018-06-27 11:23:00 - [MESSAGE][PASSED] - Text 'koira' is set on object 'Object Repository/Page_Change description - Wandering/textarea_Description'
+
+2018-06-27 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change description - Wandering/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change description - Wandering/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change contact information' is clicked on
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change contact information' is clicked on
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Street'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Street'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_ZipCode'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_ZipCode'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_City'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_City'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Country'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Country'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Phone'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Phone'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Email'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Email'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Facebook'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Facebook'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Website'
+
+2018-06-27 11:23:01 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Page_Change contact infromation - W/input_Website'
+
+2018-06-27 11:23:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change contact infromation - W/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change contact infromation - W/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change opening hours' is clicked on
+
+2018-06-27 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My offices - Wandering Tail Oy (8)/a_Change opening hours' is clicked on
+
+2018-06-27 11:23:02 - [TEST_STEP][PASSED] - setText: Text '8-16' is set on object 'Object Repository/Page_Change opening hours - Wanderi/textarea_OpeningHours'
+
+2018-06-27 11:23:02 - [MESSAGE][PASSED] - Text '8-16' is set on object 'Object Repository/Page_Change opening hours - Wanderi/textarea_OpeningHours'
+
+2018-06-27 11:23:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_Change opening hours - Wanderi/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Change opening hours - Wanderi/input_btn btn-primary' is clicked on
+
+2018-06-27 11:23:02 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-06-27 11:23:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-06-27 11:22:43 - [TEST_SUITE][PASSED] - TestSuite: Test Cases/Offices]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
